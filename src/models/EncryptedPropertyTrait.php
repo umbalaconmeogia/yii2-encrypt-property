@@ -61,7 +61,7 @@ trait EncryptedPropertyTrait
         
     }
     
-    protected function encryptedFieldDefinition()
+    protected function encryptedPropertiesDefinition()
     {
     }
 }
