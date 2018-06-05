@@ -56,12 +56,22 @@ trait EncryptedPropertyTrait
      * 
      * @param string $name
      */
-    protected function getEncryptedPropertyValue($name)
+    protected function getDecryptedPropertyValue($name)
     {
         
     }
     
-    protected function encryptedPropertiesDefinition()
+    /**
+     *
+     * @param string $name
+     * @param mixed $value
+     */
+    protected function setDecryptedPropertyValue($name, $value)
+    {
+        
+    }
+    
+    protected function encryptedPropertyDefinitions()
     {
     }
 }

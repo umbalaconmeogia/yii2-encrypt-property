@@ -12,6 +12,11 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
+    "autoload": {
+        "psr-4": {
+            "batsg\\encrypt\\property\\": "../../src"
+        }
+    },
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
