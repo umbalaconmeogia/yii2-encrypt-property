@@ -1,0 +1,20 @@
+{
+	"name" : "umbalaconmeogia/yii2-encrypt-property",
+	"type" : "yii2-extension",
+	"description" : "Library to encrypt model property.",
+	"authors" : [{
+			"name" : "Tran Trung Thanh",
+			"role" : "Developer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"batsg\\" : "src/"
+		}
+	},
+	"keywords" : [
+		"yii2",
+		"utility"
+	],
+	"license" : "MIT"
+}

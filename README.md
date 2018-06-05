@@ -28,9 +28,9 @@ Một phương án để đề phòng việc này là bản thân thông tin ph�
   
   * Tốc độ truy cập vào thông tin bị chậm lại.
   
-  * Không áp dụng được phương pháp search bằng câu lệnh SQL.
-  
-  * Không sử dụng được các phương án tìm kiếm do các framework cung cấp đã được implement trong generated code.
+  * Các field bị mã hóa sẽ yếu về vấn đề tìm kiếm, đòi hỏi phải implement phương án search riêng.
+    * Không áp dụng được phương pháp search bằng câu lệnh SQL.
+    * Không sử dụng được các phương án tìm kiếm do các framework cung cấp đã được implement trong generated code.
   
 ## Về thư viện này
 
@@ -38,10 +38,12 @@ Một phương án để đề phòng việc này là bản thân thông tin ph�
 
 * Được kiểm chứng trên framework yii2.
 
+
 ## Cách sử dụng
 
 ### Thiết lập mật khẩu
-
 TBD
+
+### 
 
 ### 
